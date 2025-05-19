@@ -23,9 +23,9 @@ namespace BOLSA_VALORES.Forms
 
         private void btnGestionarUsuarios_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Aquí se abrirá el formulario de gestión de usuarios.");
-            // new ManageUsuariosForm().ShowDialog();
+            new UsuariosForm().ShowDialog();
         }
+
 
         private void btnGestionarAcciones_Click(object sender, EventArgs e)
         {

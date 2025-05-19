@@ -7,10 +7,6 @@ using System.Data.SqlClient;
 using BOLSA_VALORES.Models;
 using BOLSA_VALORES.Data;
 
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using BOLSA_VALORES.Models;
 
 namespace BOLSA_VALORES.Repositories.Implementaciones
 {
@@ -45,19 +41,17 @@ namespace BOLSA_VALORES.Repositories.Implementaciones
             return lista;
         }
 
-        public void ActualizarPrecio(int accionId, decimal nuevoPrecio)
+        public void ActualizarPreciosConSP()
         {
             var connection = DatabaseConnection.Instance.GetConnection();
 
-            string query = "UPDATE Acciones SET PrecioActual = @PrecioActual WHERE AccionID = @AccionID";
-
-            using (SqlCommand cmd = new SqlCommand(query, connection))
+            using (SqlCommand cmd = new SqlCommand("SP_ActualizarPrecioAccion", connection))
             {
-                cmd.Parameters.AddWithValue("@PrecioActual", nuevoPrecio);
-                cmd.Parameters.AddWithValue("@AccionID", accionId);
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.ExecuteNonQuery();
             }
         }
+
 
         public void AgregarAccion(Accion accion)
         {

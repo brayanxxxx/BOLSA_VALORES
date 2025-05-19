@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|c:\\users\\deivy\\source\\repos\\bolsa_valores\\bolsa_valores\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\usuariosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\usuariosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\repositories\\implementaciones\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\repositories\\implementaciones\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\inversordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\inversordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\repositories\\implementaciones\\transaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\repositories\\implementaciones\\transaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\repositories\\implementaciones\\accionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\repositories\\implementaciones\\accionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\inversordashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\inversordashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\inversordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\inversordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\admindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +51,8 @@
       "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|c:\\users\\deivy\\source\\repos\\bolsa_valores\\bolsa_valores\\repositories\\implementaciones\\transaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\repositories\\implementaciones\\transaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\inversordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\inversordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\manageaccionesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\manageaccionesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\repositories\\implementaciones\\accionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\repositories\\implementaciones\\accionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\models\\accion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,28 +67,12 @@
       "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\manageaccionesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\inversordashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\inversordashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\repositories\\implementaciones\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\repositories\\implementaciones\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\usuariosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\usuariosform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,20 +91,12 @@
       "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\repositories\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\accionesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\accionesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\usuariosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\inversordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\forms\\inversordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\bolsa_valores\\forms\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -126,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -143,27 +143,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TransaccionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Implementaciones\\TransaccionRepository.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Repositories\\Implementaciones\\TransaccionRepository.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Implementaciones\\TransaccionRepository.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Repositories\\Implementaciones\\TransaccionRepository.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Implementaciones\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Repositories\\Implementaciones\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Implementaciones\\UsuarioRepository.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Repositories\\Implementaciones\\UsuarioRepository.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAmwA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T20:24:23.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Transaccion.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Transaccion.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Models\\Transaccion.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Transaccion.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Models\\Transaccion.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:20:33.967Z",
+              "WhenOpened": "2025-05-19T19:22:08.539Z",
               "EditorCaption": ""
             },
             {
@@ -174,7 +161,7 @@
               "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\AdminDashboard.cs",
               "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\AdminDashboard.cs",
               "RelativeToolTip": "BOLSA_VALORES\\Forms\\AdminDashboard.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowBkAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T19:38:23.618Z",
               "EditorCaption": ""
@@ -182,250 +169,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdminDashboard.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\AdminDashboard.Designer.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\AdminDashboard.Designer.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\AdminDashboard.Designer.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Forms\\AdminDashboard.Designer.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEAAAAAAAAAAAAAAAA==",
+              "Title": "UsuariosForm.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\UsuariosForm.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Forms\\UsuariosForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T20:22:40.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ManageAccionesForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.Designer.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\ManageAccionesForm.Designer.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.Designer.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Forms\\ManageAccionesForm.Designer.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAQwNUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T20:22:26.803Z",
+              "WhenOpened": "2025-05-19T19:43:10.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Usuario.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:20:03.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuariosForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.Designer.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\UsuariosForm.Designer.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.Designer.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Forms\\UsuariosForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:42:01.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "InversorDashboard.cs",
               "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\InversorDashboard.cs",
               "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\InversorDashboard.cs",
               "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\InversorDashboard.cs",
               "RelativeToolTip": "BOLSA_VALORES\\Forms\\InversorDashboard.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwCgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAQwJIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T19:48:45.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManageAccionesForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BOLSA_VALORES\\Forms\\ManageAccionesForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T20:21:53.728Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AccionRepository.cs",
               "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Implementaciones\\AccionRepository.cs",
               "RelativeDocumentMoniker": "BOLSA_VALORES\\Repositories\\Implementaciones\\AccionRepository.cs",
               "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Implementaciones\\AccionRepository.cs",
               "RelativeToolTip": "BOLSA_VALORES\\Repositories\\Implementaciones\\AccionRepository.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAQwHAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T19:22:15.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Accion.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Accion.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Models\\Accion.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Accion.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Models\\Accion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TransaccionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Implementaciones\\TransaccionRepository.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Repositories\\Implementaciones\\TransaccionRepository.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Implementaciones\\TransaccionRepository.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Repositories\\Implementaciones\\TransaccionRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:20:18.374Z",
+              "WhenOpened": "2025-05-19T20:24:23.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ManageAccionesForm.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAswBMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T20:22:03.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "InversorDashboard.Designer.cs",
               "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\InversorDashboard.Designer.cs",
               "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\InversorDashboard.Designer.cs",
               "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\InversorDashboard.Designer.cs",
               "RelativeToolTip": "BOLSA_VALORES\\Forms\\InversorDashboard.Designer.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAwwH4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T20:08:12.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Implementaciones\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Repositories\\Implementaciones\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Implementaciones\\UsuarioRepository.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Repositories\\Implementaciones\\UsuarioRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:22:08.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Forms\\LoginForm.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:37:25.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DatabaseConnection.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Data\\DatabaseConnection.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Data\\DatabaseConnection.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Data\\DatabaseConnection.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Data\\DatabaseConnection.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwA8AAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:22:40.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UsuariosForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.Designer.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\UsuariosForm.Designer.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.Designer.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Forms\\UsuariosForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:42:01.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UsuariosForm.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\UsuariosForm.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Forms\\UsuariosForm.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAuwEMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:43:10.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Program.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Program.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Program.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:38:03.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LoginForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.Designer.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\LoginForm.Designer.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.Designer.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Forms\\LoginForm.Designer.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAUwFIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:36:39.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Usuario.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:20:03.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Repositories\\Interfaces\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Interfaces\\IUsuarioRepository.cs",
-              "RelativeToolTip": "BOLSA_VALORES\\Repositories\\Interfaces\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:21:39.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LoginForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BOLSA_VALORES\\Forms\\LoginForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:23:11.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AccionesForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\AccionesForm.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\AccionesForm.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\AccionesForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BOLSA_VALORES\\Forms\\AccionesForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:23:50.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UsuariosForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.cs",
-              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\UsuariosForm.cs",
-              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "BOLSA_VALORES\\Forms\\UsuariosForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:23:37.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 9,
               "Title": "InversorDashboard.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\InversorDashboard.cs",
               "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\InversorDashboard.cs",
@@ -437,6 +271,171 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManageAccionesForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.Designer.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\ManageAccionesForm.Designer.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.Designer.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Forms\\ManageAccionesForm.Designer.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAQwNUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:22:26.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\AdminDashboard.Designer.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\AdminDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\AdminDashboard.Designer.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Forms\\AdminDashboard.Designer.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:22:40.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Transaccion.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Models\\Transaccion.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:20:33.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ManageAccionesForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BOLSA_VALORES\\Forms\\ManageAccionesForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:21:53.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Accion.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Accion.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Models\\Accion.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Models\\Accion.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Models\\Accion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:20:18.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManageAccionesForm.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Forms\\ManageAccionesForm.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAswBMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T20:22:03.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Forms\\LoginForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:37:25.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Data\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Data\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Data\\DatabaseConnection.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Data\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwA8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:22:40.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Program.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Program.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Program.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:38:03.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.Designer.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Forms\\LoginForm.Designer.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:36:39.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "BOLSA_VALORES\\Repositories\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:21:39.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\LoginForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BOLSA_VALORES\\Forms\\LoginForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:23:11.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccionesForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\AccionesForm.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\AccionesForm.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\AccionesForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BOLSA_VALORES\\Forms\\AccionesForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:23:50.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UsuariosForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Forms\\UsuariosForm.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\UsuariosForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BOLSA_VALORES\\Forms\\UsuariosForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:23:37.626Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 24,
               "Title": "AdminDashboard.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\AdminDashboard.cs",
@@ -444,8 +443,7 @@
               "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Forms\\AdminDashboard.cs [Dise\u00F1o]",
               "RelativeToolTip": "BOLSA_VALORES\\Forms\\AdminDashboard.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T19:23:21.798Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-05-19T19:23:21.798Z"
             },
             {
               "$type": "Document",
