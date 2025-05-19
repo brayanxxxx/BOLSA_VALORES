@@ -1,0 +1,48 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|c:\\users\\deivy\\source\\repos\\bolsa_valores\\bolsa_valores\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9EAE084E-C43C-498C-9C12-A398E3A2A408}|BOLSA_VALORES\\BOLSA_VALORES.csproj|solutionrelative:bolsa_valores\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Form1.cs",
+              "RelativeDocumentMoniker": "BOLSA_VALORES\\Form1.cs",
+              "ToolTip": "C:\\Users\\deivy\\source\\repos\\BOLSA_VALORES\\BOLSA_VALORES\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BOLSA_VALORES\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T18:57:54.855Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
