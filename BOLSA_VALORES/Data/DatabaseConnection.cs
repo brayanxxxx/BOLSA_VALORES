@@ -13,7 +13,7 @@ namespace BOLSA_VALORES.Data
      
         private DatabaseConnection()
         {
-            _connectionString = @"Server=localhost;Database=BOLSA_VALORES;Trusted_Connection=True;";
+            _connectionString = @"Server=localhost\SQLEXPRESS;Database=BOLSA_VALORES;Trusted_Connection=SSPI;MultipleActiveResultSets=true;";
         }
 
 

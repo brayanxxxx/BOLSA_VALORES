@@ -7,14 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BOLSA_VALORES.Models;
+using BOLSA_VALORES.Repositories.Implementaciones;
+
 
 namespace BOLSA_VALORES.Forms
 {
     public partial class InversorDashboard : Form
     {
-        public InversorDashboard()
+        private Usuario usuario;
+
+        public InversorDashboard(Usuario usuario)
         {
             InitializeComponent();
+            this.usuario = usuario;
+         
         }
     }
 }
+

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BOLSA_VALORES.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,12 @@ namespace BOLSA_VALORES.Forms
 {
     public partial class AdminDashboard : Form
     {
-        public AdminDashboard()
+        private Usuario usuario;
+
+        public AdminDashboard(Usuario usuario)
         {
             InitializeComponent();
+            this.usuario = usuario;
         }
     }
 }

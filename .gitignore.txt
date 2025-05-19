@@ -1,0 +1,27 @@
+# Archivos de Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos binarios
+bin/
+obj/
+
+# Archivos generados por el sistema
+*.log
+*.tmp
+
+# Configuración local
+*.dbmdl
+*.vscode/
+*.DS_Store
+Thumbs.db
+
+# Archivos de paquetes
+packages/
+*.nupkg
+
+# Archivos de publicación
+publish/

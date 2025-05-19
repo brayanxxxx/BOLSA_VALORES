@@ -223,3 +223,8 @@ BEGIN
     ORDER BY TotalTransacciones DESC;
 END
 GO
+
+INSERT INTO Usuarios (Nombre, TipoUsuario, Username, Password, Saldo)
+VALUES ('DEIVY', 'Inversor', 'DEIVY', '123', 1000.00);
+GO
+

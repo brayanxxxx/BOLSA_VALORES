@@ -1,0 +1,9 @@
+C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\obj\Debug\BOLSA_VALORES.csproj.AssemblyReference.cache
+C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\obj\Debug\BOLSA_VALORES.Properties.Resources.resources
+C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\obj\Debug\BOLSA_VALORES.csproj.GenerateResource.cache
+C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\obj\Debug\BOLSA_VALORES.csproj.CoreCompileInputs.cache
+C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\bin\Debug\BOLSA_VALORES.exe.config
+C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\bin\Debug\BOLSA_VALORES.exe
+C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\bin\Debug\BOLSA_VALORES.pdb
+C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\obj\Debug\BOLSA_VALORES.exe
+C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\obj\Debug\BOLSA_VALORES.pdb
