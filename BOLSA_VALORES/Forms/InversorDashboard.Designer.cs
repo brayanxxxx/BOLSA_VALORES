@@ -30,8 +30,11 @@
             this.btnComprar = new System.Windows.Forms.Button();
             this.btnVender = new System.Windows.Forms.Button();
             this.lblEstado = new System.Windows.Forms.Label();
+            this.nudCantidad = new System.Windows.Forms.NumericUpDown();
 
             ((System.ComponentModel.ISupportInitialize)(this.dgvAcciones)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
+
             this.SuspendLayout();
 
             // lblBienvenida
@@ -67,8 +70,16 @@
             this.dgvAcciones.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvAcciones.Size = new System.Drawing.Size(600, 200);
 
+            // nudCantidad
+            this.nudCantidad.Location = new System.Drawing.Point(20, 270);
+            this.nudCantidad.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            this.nudCantidad.Maximum = new decimal(new int[] { 10000, 0, 0, 0 });
+            this.nudCantidad.Name = "nudCantidad";
+            this.nudCantidad.Size = new System.Drawing.Size(120, 23);
+            this.nudCantidad.TabIndex = 6;
+
             // btnComprar
-            this.btnComprar.Location = new System.Drawing.Point(20, 310);
+            this.btnComprar.Location = new System.Drawing.Point(160, 310);
             this.btnComprar.Name = "btnComprar";
             this.btnComprar.Size = new System.Drawing.Size(120, 30);
             this.btnComprar.Text = "Comprar acción";
@@ -76,7 +87,7 @@
             this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
 
             // btnVender
-            this.btnVender.Location = new System.Drawing.Point(160, 310);
+            this.btnVender.Location = new System.Drawing.Point(300, 310);
             this.btnVender.Name = "btnVender";
             this.btnVender.Size = new System.Drawing.Size(120, 30);
             this.btnVender.Text = "Vender acción";
@@ -89,12 +100,6 @@
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(0, 15);
 
-            //nudCantidad
-            this.nudCantidad = new System.Windows.Forms.NumericUpDown();
-            this.nudCantidad.Location = new System.Drawing.Point(20, 270);
-            this.nudCantidad.Minimum = 1;
-            this.nudCantidad.Maximum = 10000;
-
             // InversorDashboard
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -103,6 +108,7 @@
             this.Controls.Add(this.lblSaldoTexto);
             this.Controls.Add(this.lblSaldo);
             this.Controls.Add(this.dgvAcciones);
+            this.Controls.Add(this.nudCantidad);
             this.Controls.Add(this.btnComprar);
             this.Controls.Add(this.btnVender);
             this.Controls.Add(this.lblEstado);
@@ -111,6 +117,8 @@
             this.Load += new System.EventHandler(this.InversorDashboard_Load);
 
             ((System.ComponentModel.ISupportInitialize)(this.dgvAcciones)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).EndInit();
+
             this.ResumeLayout(false);
             this.PerformLayout();
         }

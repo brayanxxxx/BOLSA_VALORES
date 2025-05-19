@@ -7,6 +7,11 @@ using System.Data.SqlClient;
 using BOLSA_VALORES.Models;
 using BOLSA_VALORES.Data;
 
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using BOLSA_VALORES.Models;
+
 namespace BOLSA_VALORES.Repositories.Implementaciones
 {
     public class AccionRepository
@@ -16,7 +21,7 @@ namespace BOLSA_VALORES.Repositories.Implementaciones
             var lista = new List<Accion>();
             var connection = DatabaseConnection.Instance.GetConnection();
 
-            string query = "SELECT * FROM Acciones";
+            string query = "SELECT AccionID, Simbolo, Nombre, Sector, PrecioActual, VariacionDiaria FROM Acciones";
 
             using (SqlCommand cmd = new SqlCommand(query, connection))
             using (SqlDataReader reader = cmd.ExecuteReader())
@@ -26,9 +31,11 @@ namespace BOLSA_VALORES.Repositories.Implementaciones
                     var accion = new Accion
                     {
                         AccionID = (int)reader["AccionID"],
+                        Simbolo = reader["Simbolo"].ToString(),
                         Nombre = reader["Nombre"].ToString(),
-                        Precio = Convert.ToDecimal(reader["Precio"]),
-                        CantidadDisponible = (int)reader["CantidadDisponible"]
+                        Sector = reader["Sector"].ToString(),
+                        PrecioActual = Convert.ToDecimal(reader["PrecioActual"]),
+                        VariacionDiaria = Convert.ToDecimal(reader["VariacionDiaria"])
                     };
 
                     lista.Add(accion);
@@ -42,25 +49,61 @@ namespace BOLSA_VALORES.Repositories.Implementaciones
         {
             var connection = DatabaseConnection.Instance.GetConnection();
 
-            string query = "UPDATE Acciones SET Precio = @Precio WHERE AccionID = @AccionID";
+            string query = "UPDATE Acciones SET PrecioActual = @PrecioActual WHERE AccionID = @AccionID";
 
             using (SqlCommand cmd = new SqlCommand(query, connection))
             {
-                cmd.Parameters.AddWithValue("@Precio", nuevoPrecio);
+                cmd.Parameters.AddWithValue("@PrecioActual", nuevoPrecio);
                 cmd.Parameters.AddWithValue("@AccionID", accionId);
                 cmd.ExecuteNonQuery();
             }
         }
 
-        public void ActualizarCantidad(int accionId, int nuevaCantidad)
+        public void AgregarAccion(Accion accion)
         {
             var connection = DatabaseConnection.Instance.GetConnection();
 
-            string query = "UPDATE Acciones SET CantidadDisponible = @Cantidad WHERE AccionID = @AccionID";
+            string query = "INSERT INTO Acciones (Simbolo, Nombre, Sector, PrecioActual, VariacionDiaria) " +
+                           "VALUES (@Simbolo, @Nombre, @Sector, @PrecioActual, @VariacionDiaria)";
 
             using (SqlCommand cmd = new SqlCommand(query, connection))
             {
-                cmd.Parameters.AddWithValue("@Cantidad", nuevaCantidad);
+                cmd.Parameters.AddWithValue("@Simbolo", accion.Simbolo);
+                cmd.Parameters.AddWithValue("@Nombre", accion.Nombre);
+                cmd.Parameters.AddWithValue("@Sector", accion.Sector ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@PrecioActual", accion.PrecioActual);
+                cmd.Parameters.AddWithValue("@VariacionDiaria", accion.VariacionDiaria);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public void ActualizarAccion(Accion accion)
+        {
+            var connection = DatabaseConnection.Instance.GetConnection();
+
+            string query = "UPDATE Acciones SET Simbolo = @Simbolo, Nombre = @Nombre, Sector = @Sector, " +
+                           "PrecioActual = @PrecioActual, VariacionDiaria = @VariacionDiaria WHERE AccionID = @AccionID";
+
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
+                cmd.Parameters.AddWithValue("@Simbolo", accion.Simbolo);
+                cmd.Parameters.AddWithValue("@Nombre", accion.Nombre);
+                cmd.Parameters.AddWithValue("@Sector", accion.Sector ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@PrecioActual", accion.PrecioActual);
+                cmd.Parameters.AddWithValue("@VariacionDiaria", accion.VariacionDiaria);
+                cmd.Parameters.AddWithValue("@AccionID", accion.AccionID);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public void EliminarAccion(int accionId)
+        {
+            var connection = DatabaseConnection.Instance.GetConnection();
+
+            string query = "DELETE FROM Acciones WHERE AccionID = @AccionID";
+
+            using (SqlCommand cmd = new SqlCommand(query, connection))
+            {
                 cmd.Parameters.AddWithValue("@AccionID", accionId);
                 cmd.ExecuteNonQuery();
             }

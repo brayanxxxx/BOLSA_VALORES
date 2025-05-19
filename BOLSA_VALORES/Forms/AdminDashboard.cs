@@ -20,5 +20,22 @@ namespace BOLSA_VALORES.Forms
             InitializeComponent();
             this.usuario = usuario;
         }
+
+        private void btnGestionarUsuarios_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Aquí se abrirá el formulario de gestión de usuarios.");
+            // new ManageUsuariosForm().ShowDialog();
+        }
+
+        private void btnGestionarAcciones_Click(object sender, EventArgs e)
+        {
+            new ManageAccionesForm().ShowDialog();
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
+

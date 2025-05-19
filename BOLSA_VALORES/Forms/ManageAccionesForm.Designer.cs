@@ -7,9 +7,13 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtSimbolo;
         private System.Windows.Forms.TextBox txtPrecio;
+        private System.Windows.Forms.TextBox txtSector;
+        private System.Windows.Forms.TextBox txtVariacionDiaria;
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.Label lblSimbolo;
         private System.Windows.Forms.Label lblPrecio;
+        private System.Windows.Forms.Label lblSector;
+        private System.Windows.Forms.Label lblVariacionDiaria;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnEliminar;
@@ -30,9 +34,13 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtSimbolo = new System.Windows.Forms.TextBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.txtSector = new System.Windows.Forms.TextBox();
+            this.txtVariacionDiaria = new System.Windows.Forms.TextBox();
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblSimbolo = new System.Windows.Forms.Label();
             this.lblPrecio = new System.Windows.Forms.Label();
+            this.lblSector = new System.Windows.Forms.Label();
+            this.lblVariacionDiaria = new System.Windows.Forms.Label();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -75,13 +83,27 @@
             this.txtPrecio.Size = new System.Drawing.Size(150, 22);
             this.txtPrecio.TabIndex = 3;
             // 
+            // txtSector
+            // 
+            this.txtSector.Location = new System.Drawing.Point(95, 370);
+            this.txtSector.Name = "txtSector";
+            this.txtSector.Size = new System.Drawing.Size(150, 22);
+            this.txtSector.TabIndex = 4;
+            // 
+            // txtVariacionDiaria
+            // 
+            this.txtVariacionDiaria.Location = new System.Drawing.Point(140, 400);
+            this.txtVariacionDiaria.Name = "txtVariacionDiaria";
+            this.txtVariacionDiaria.Size = new System.Drawing.Size(105, 22);
+            this.txtVariacionDiaria.TabIndex = 5;
+            // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.Location = new System.Drawing.Point(20, 283);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(57, 17);
-            this.lblNombre.TabIndex = 4;
+            this.lblNombre.TabIndex = 6;
             this.lblNombre.Text = "Nombre";
             // 
             // lblSimbolo
@@ -90,7 +112,7 @@
             this.lblSimbolo.Location = new System.Drawing.Point(20, 313);
             this.lblSimbolo.Name = "lblSimbolo";
             this.lblSimbolo.Size = new System.Drawing.Size(53, 17);
-            this.lblSimbolo.TabIndex = 5;
+            this.lblSimbolo.TabIndex = 7;
             this.lblSimbolo.Text = "Símbolo";
             // 
             // lblPrecio
@@ -99,15 +121,33 @@
             this.lblPrecio.Location = new System.Drawing.Point(20, 343);
             this.lblPrecio.Name = "lblPrecio";
             this.lblPrecio.Size = new System.Drawing.Size(48, 17);
-            this.lblPrecio.TabIndex = 6;
+            this.lblPrecio.TabIndex = 8;
             this.lblPrecio.Text = "Precio";
+            // 
+            // lblSector
+            // 
+            this.lblSector.AutoSize = true;
+            this.lblSector.Location = new System.Drawing.Point(20, 373);
+            this.lblSector.Name = "lblSector";
+            this.lblSector.Size = new System.Drawing.Size(46, 17);
+            this.lblSector.TabIndex = 9;
+            this.lblSector.Text = "Sector";
+            // 
+            // lblVariacionDiaria
+            // 
+            this.lblVariacionDiaria.AutoSize = true;
+            this.lblVariacionDiaria.Location = new System.Drawing.Point(20, 403);
+            this.lblVariacionDiaria.Name = "lblVariacionDiaria";
+            this.lblVariacionDiaria.Size = new System.Drawing.Size(114, 17);
+            this.lblVariacionDiaria.TabIndex = 10;
+            this.lblVariacionDiaria.Text = "Variación Diaria";
             // 
             // btnAgregar
             // 
             this.btnAgregar.Location = new System.Drawing.Point(270, 275);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(90, 30);
-            this.btnAgregar.TabIndex = 7;
+            this.btnAgregar.TabIndex = 11;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
@@ -117,7 +157,7 @@
             this.btnActualizar.Location = new System.Drawing.Point(270, 315);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(90, 30);
-            this.btnActualizar.TabIndex = 8;
+            this.btnActualizar.TabIndex = 12;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
@@ -127,7 +167,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(270, 355);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(90, 30);
-            this.btnEliminar.TabIndex = 9;
+            this.btnEliminar.TabIndex = 13;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
@@ -137,7 +177,7 @@
             this.btnRefrescar.Location = new System.Drawing.Point(380, 275);
             this.btnRefrescar.Name = "btnRefrescar";
             this.btnRefrescar.Size = new System.Drawing.Size(90, 30);
-            this.btnRefrescar.TabIndex = 10;
+            this.btnRefrescar.TabIndex = 14;
             this.btnRefrescar.Text = "Refrescar";
             this.btnRefrescar.UseVisualStyleBackColor = true;
             this.btnRefrescar.Click += new System.EventHandler(this.btnRefrescar_Click);
@@ -146,14 +186,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 401);
+            this.ClientSize = new System.Drawing.Size(484, 440);
             this.Controls.Add(this.btnRefrescar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.lblVariacionDiaria);
+            this.Controls.Add(this.lblSector);
             this.Controls.Add(this.lblPrecio);
             this.Controls.Add(this.lblSimbolo);
             this.Controls.Add(this.lblNombre);
+            this.Controls.Add(this.txtVariacionDiaria);
+            this.Controls.Add(this.txtSector);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.txtSimbolo);
             this.Controls.Add(this.txtNombre);
