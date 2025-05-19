@@ -87,7 +87,7 @@ git clone https://github.com/tuusuario/BOLSA_VALORES.git
 
 3. Abrir el archivo `BOLSA_VALORES.sln` en Visual Studio.
 4. Restaurar los paquetes NuGet si es necesario.
-5. Cargar la base de datos ejecutando el script en `Scripts/BOLSA_VALORES.sql`.
+5. Cargar la base de datos ejecutando el script en `StoredProcedures/Script_DB_BOLSA_VALORES.sql`.
 6. Establecer el proyecto como **inicio** y presionar `F5` para ejecutar la aplicación.
 
 ---
