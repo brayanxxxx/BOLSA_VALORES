@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace BOLSA_VALORES.Models
 {
-    internal class Accion
+    public class Accion
     {
+        public int AccionID { get; set; }
+        public string Nombre { get; set; }
+        public decimal Precio { get; set; }
+        public int CantidadDisponible { get; set; }
     }
 }
+

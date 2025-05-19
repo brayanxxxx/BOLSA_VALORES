@@ -7,7 +7,14 @@ using System.Threading.Tasks;
 
 namespace BOLSA_VALORES.Models
 {
-    internal class Transaccion
+    public class Transaccion
     {
+        public int TransaccionID { get; set; }
+        public int UsuarioID { get; set; }
+        public int AccionID { get; set; }
+        public string TipoTransaccion { get; set; } // "Compra" o "Venta"
+        public int Cantidad { get; set; }
+        public decimal Precio { get; set; }
+        public DateTime Fecha { get; set; }
     }
 }
