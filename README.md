@@ -48,12 +48,12 @@ La aplicación gestiona entidades como Usuarios, Acciones y Transacciones, brind
 ## 🔑 Datos de Acceso (Pruebas)
 
 ### Administrador
-- **Usuario:** admin@bolsa.com
+- **Usuario:** ADMIN
 - **Contraseña:** admin123
 
 ### Inversor
-- **Usuario:** inversor1@bolsa.com
-- **Contraseña:** inversor123
+- **Usuario:** DEIVY
+- **Contraseña:** 123
 
 ---
 
