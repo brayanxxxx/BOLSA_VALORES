@@ -1,5 +1,5 @@
 
-# 📈 BOLSA DE VALORES - Equipo 8
+# 📈 BOLSA DE VALORES 
 
 ## 📌 Propósito
 Este proyecto tiene como objetivo desarrollar una aplicación de simulación de inversiones en bolsa de valores aplicando buenas prácticas de programación. Se utilizan patrones de diseño como Repository y Singleton, junto con principios SOLID, para lograr un sistema modular, mantenible y escalable.
@@ -52,7 +52,7 @@ La aplicación gestiona entidades como Usuarios, Acciones y Transacciones, brind
 - **Contraseña:** admin123
 
 ### Inversor
-- **Usuario:** DEIVY
+- **Usuario:** bryan
 - **Contraseña:** 123
 
 ---
