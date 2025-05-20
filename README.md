@@ -92,4 +92,4 @@ git clone https://github.com/tuusuario/BOLSA_VALORES.git
 
 ---
 
-👨‍💻 Desarrollado por el **Equipo 8**
+👨‍💻 Desarrollado por el **Brayan cordoba**
