@@ -224,7 +224,98 @@ BEGIN
 END
 GO
 
+
+-- SP para autenticar usuario
+CREATE PROCEDURE SP_AutenticarUsuario
+    @Username NVARCHAR(50),
+    @Password NVARCHAR(50)
+AS
+BEGIN
+    SELECT * FROM Usuarios 
+    WHERE Username = @Username AND Password = @Password
+END
+GO
+
+-- SP para obtener todos usuarios
+CREATE PROCEDURE SP_ObtenerTodosUsuarios
+AS
+BEGIN
+    SELECT * FROM Usuarios
+END
+GO
+
+-- SP para agregar usuario
+CREATE PROCEDURE SP_AgregarUsuario
+    @Nombre NVARCHAR(100),
+    @TipoUsuario NVARCHAR(50),
+    @Username NVARCHAR(50),
+    @Password NVARCHAR(50),
+    @Saldo DECIMAL(18,2)
+AS
+BEGIN
+    INSERT INTO Usuarios (Nombre, TipoUsuario, Username, Password, Saldo)
+    VALUES (@Nombre, @TipoUsuario, @Username, @Password, @Saldo)
+END
+GO
+
+-- SP para actualizar usuario
+CREATE PROCEDURE SP_ActualizarUsuario
+    @UsuarioID INT,
+    @Nombre NVARCHAR(100),
+    @TipoUsuario NVARCHAR(50),
+    @Username NVARCHAR(50),
+    @Password NVARCHAR(50),
+    @Saldo DECIMAL(18,2)
+AS
+BEGIN
+    UPDATE Usuarios SET Nombre = @Nombre, TipoUsuario = @TipoUsuario,
+                       Username = @Username, Password = @Password,
+                       Saldo = @Saldo
+    WHERE UsuarioID = @UsuarioID
+END
+GO
+
+-- SP para obtener usuario por ID
+CREATE PROCEDURE SP_ObtenerUsuarioPorID
+    @UsuarioID INT
+AS
+BEGIN
+    SELECT * FROM Usuarios WHERE UsuarioID = @UsuarioID
+END
+GO
+
+-- SP para actualizar saldo
+CREATE PROCEDURE SP_ActualizarSaldo
+    @UsuarioID INT,
+    @Saldo DECIMAL(18,2)
+AS
+BEGIN
+    UPDATE Usuarios SET Saldo = @Saldo WHERE UsuarioID = @UsuarioID
+END
+GO
+
+-- SP para eliminar usuario
+CREATE PROCEDURE SP_EliminarUsuario
+    @UsuarioID INT
+AS
+BEGIN
+    DELETE FROM Usuarios WHERE UsuarioID = @UsuarioID
+END
+GO
+
+
 INSERT INTO Usuarios (Nombre, TipoUsuario, Username, Password, Saldo)
 VALUES ('DEIVY', 'Inversor', 'DEIVY', '123', 1000.00);
+GO
+
+INSERT INTO Usuarios (Nombre, TipoUsuario, Username, Password, Saldo)
+VALUES ('Admin Principal', 'Administrador', 'ADMIN', 'admin123', 0.00);
+GO
+
+INSERT INTO Acciones (Simbolo, Nombre, Sector, PrecioActual, VariacionDiaria)
+VALUES 
+('AAPL', 'Apple Inc.', 'Tecnología', 175.50, 1.25),
+('MSFT', 'Microsoft Corp.', 'Tecnología', 300.10, -0.85),
+('TSLA', 'Tesla Inc.', 'Automotriz', 720.75, 3.40);
 GO
 
