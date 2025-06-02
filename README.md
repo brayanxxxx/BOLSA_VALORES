@@ -13,8 +13,8 @@ La aplicación gestiona entidades como Usuarios, Acciones y Transacciones, brind
 - **Interfaz Gráfica:** Windows Forms
 - **Base de Datos:** SQL Server
 - **Acceso a Datos:** ADO.NET (sin ORM)
-- **Patrones de diseño:** Repository, Singleton
-- **Principios SOLID aplicados:** SRP (Principio de Responsabilidad Única), OCP (Principio Abierto/Cerrado)
+- **Patrones de diseño:** Repository, Singleton, unit of work
+- **Principios SOLID aplicados
 
 ---
 
@@ -27,7 +27,7 @@ La aplicación gestiona entidades como Usuarios, Acciones y Transacciones, brind
 - Almacenamiento de datos financieros y saldo de los usuarios
 
 ### 📊 Gestión de Acciones y Valores
-- CRUD de acciones del mercado (símbolo, sector, precio, variación)
+- CRUD de acciones del mercado (nombre, precio, variación)
 - Simulación de actualización de precios en tiempo real
 
 ### 💰 Simulador de Transacciones (Compra/Venta)
@@ -67,6 +67,10 @@ La aplicación gestiona entidades como Usuarios, Acciones y Transacciones, brind
 
 ### Dashboard Inversor
 ![image](https://github.com/user-attachments/assets/42efe668-79d2-48b1-a234-43af00819bba)
+
+### Portafolio y notificaciones
+![Captura de pantalla 2025-06-01 225843](https://github.com/user-attachments/assets/792a7aa4-081a-48de-bb36-dedb0015f66d)
+
 
 ### Admin Dashboard
 ![image](https://github.com/user-attachments/assets/dc329480-2695-42be-b5fe-8d9a92dd72c9)
