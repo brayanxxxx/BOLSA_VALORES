@@ -7,3 +7,4 @@ C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\bin\Debug\BOLSA_VALORES.
 C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\bin\Debug\BOLSA_VALORES.pdb
 C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\obj\Debug\BOLSA_VALORES.exe
 C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\obj\Debug\BOLSA_VALORES.pdb
+C:\Users\deivy\source\repos\BOLSA_VALORES\BOLSA_VALORES\obj\Debug\BOLSA_VALORES.Forms.InversorDashboard.resources

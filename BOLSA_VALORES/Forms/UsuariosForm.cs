@@ -3,6 +3,8 @@ using BOLSA_VALORES.Repositories.Implementaciones;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
 
 namespace BOLSA_VALORES.Forms
 {
@@ -11,91 +13,146 @@ namespace BOLSA_VALORES.Forms
         private UsuarioRepository usuarioRepo;
         private int? usuarioSeleccionadoId = null;
 
-        public UsuariosForm()
+        public UsuariosForm(SqlConnection connection, SqlTransaction transaction)
         {
             InitializeComponent();
-            usuarioRepo = new UsuarioRepository();
-            CargarUsuarios();
+
+            try
+            {
+                usuarioRepo = new UsuarioRepository(connection, transaction);
+                CargarUsuarios();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al iniciar UsuariosForm: " + ex.Message);
+                this.Close();
+            }
         }
 
         private void CargarUsuarios()
         {
-            var lista = usuarioRepo.ObtenerTodos();
-            dgvUsuarios.DataSource = null;
-            dgvUsuarios.DataSource = lista;
+            try
+            {
+                var lista = usuarioRepo.ObtenerTodos();
+                dgvUsuarios.DataSource = null;
+                dgvUsuarios.DataSource = lista;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar usuarios: " + ex.Message);
+            }
         }
 
         private void LimpiarCampos()
         {
-            txtNombre.Text = "";
+            txtNombre.Clear();
             cmbTipoUsuario.SelectedIndex = -1;
-            txtUsername.Text = "";
-            txtPassword.Text = "";
-            txtSaldo.Text = "";
+            txtUsername.Clear();
+            txtPassword.Clear();
+            txtSaldo.Clear();
             usuarioSeleccionadoId = null;
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtNombre.Text) ||
-                string.IsNullOrWhiteSpace(cmbTipoUsuario.Text) ||
-                string.IsNullOrWhiteSpace(txtUsername.Text) ||
-                string.IsNullOrWhiteSpace(txtPassword.Text) ||
-                string.IsNullOrWhiteSpace(txtSaldo.Text))
+            try
             {
-                MessageBox.Show("Completa todos los campos.");
-                return;
-            }
+                if (string.IsNullOrWhiteSpace(txtNombre.Text) ||
+                    string.IsNullOrWhiteSpace(cmbTipoUsuario.Text) ||
+                    string.IsNullOrWhiteSpace(txtUsername.Text) ||
+                    string.IsNullOrWhiteSpace(txtPassword.Text) ||
+                    string.IsNullOrWhiteSpace(txtSaldo.Text))
+                {
+                    MessageBox.Show("Completa todos los campos.");
+                    return;
+                }
 
-            var usuario = new Usuario
+                if (!decimal.TryParse(txtSaldo.Text, out decimal saldo))
+                {
+                    MessageBox.Show("Saldo inválido.");
+                    return;
+                }
+
+                var usuario = new Usuario
+                {
+                    Nombre = txtNombre.Text.Trim(),
+                    TipoUsuario = cmbTipoUsuario.Text,
+                    Username = txtUsername.Text.Trim(),
+                    Password = txtPassword.Text.Trim(),
+                    Saldo = saldo
+                };
+
+                usuarioRepo.AgregarUsuario(usuario);
+                CargarUsuarios();
+                LimpiarCampos();
+                MessageBox.Show("Usuario agregado correctamente.");
+            }
+            catch (Exception ex)
             {
-                Nombre = txtNombre.Text,
-                TipoUsuario = cmbTipoUsuario.Text,
-                Username = txtUsername.Text,
-                Password = txtPassword.Text,
-                Saldo = decimal.Parse(txtSaldo.Text)
-            };
-            usuarioRepo.AgregarUsuario(usuario);
-            CargarUsuarios();
-            LimpiarCampos();
-            MessageBox.Show("Usuario agregado correctamente.");
+                MessageBox.Show("Error al agregar usuario: " + ex.Message);
+            }
         }
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            if (usuarioSeleccionadoId == null)
+            try
             {
-                MessageBox.Show("Selecciona un usuario primero.");
-                return;
-            }
+                if (usuarioSeleccionadoId == null)
+                {
+                    MessageBox.Show("Selecciona un usuario primero.");
+                    return;
+                }
 
-            var usuario = new Usuario
+                if (!decimal.TryParse(txtSaldo.Text, out decimal saldo))
+                {
+                    MessageBox.Show("Saldo inválido.");
+                    return;
+                }
+
+                var usuario = new Usuario
+                {
+                    UsuarioID = usuarioSeleccionadoId.Value,
+                    Nombre = txtNombre.Text.Trim(),
+                    TipoUsuario = cmbTipoUsuario.Text,
+                    Username = txtUsername.Text.Trim(),
+                    Password = txtPassword.Text.Trim(),
+                    Saldo = saldo
+                };
+
+                usuarioRepo.ActualizarUsuario(usuario);
+                CargarUsuarios();
+                LimpiarCampos();
+                MessageBox.Show("Usuario actualizado correctamente.");
+            }
+            catch (Exception ex)
             {
-                UsuarioID = usuarioSeleccionadoId.Value,
-                Nombre = txtNombre.Text,
-                TipoUsuario = cmbTipoUsuario.Text,
-                Username = txtUsername.Text,
-                Password = txtPassword.Text,
-                Saldo = decimal.Parse(txtSaldo.Text)
-            };
-            usuarioRepo.ActualizarUsuario(usuario);
-            CargarUsuarios();
-            LimpiarCampos();
-            MessageBox.Show("Usuario actualizado correctamente.");
+                MessageBox.Show("Error al actualizar usuario: " + ex.Message);
+            }
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            if (usuarioSeleccionadoId == null)
+            try
             {
-                MessageBox.Show("Selecciona un usuario primero.");
-                return;
-            }
+                if (usuarioSeleccionadoId == null)
+                {
+                    MessageBox.Show("Selecciona un usuario primero.");
+                    return;
+                }
 
-            usuarioRepo.EliminarUsuario(usuarioSeleccionadoId.Value);
-            CargarUsuarios();
-            LimpiarCampos();
-            MessageBox.Show("Usuario eliminado correctamente.");
+                var confirm = MessageBox.Show("¿Seguro que deseas eliminar al usuario?", "Confirmación", MessageBoxButtons.YesNo);
+                if (confirm == DialogResult.Yes)
+                {
+                    usuarioRepo.EliminarUsuario(usuarioSeleccionadoId.Value);
+                    CargarUsuarios();
+                    LimpiarCampos();
+                    MessageBox.Show("Usuario eliminado correctamente.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al eliminar usuario: " + ex.Message);
+            }
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)

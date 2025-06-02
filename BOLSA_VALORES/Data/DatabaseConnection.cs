@@ -35,14 +35,11 @@ namespace BOLSA_VALORES.Data
 
         public SqlConnection GetConnection()
         {
-            if (_connection == null)
-                _connection = new SqlConnection(_connectionString);
-
-            if (_connection.State == System.Data.ConnectionState.Closed)
-                _connection.Open();
-
-            return _connection;
+            var connection = new SqlConnection(_connectionString);
+            connection.Open();
+            return connection;
         }
+
 
 
         public void CloseConnection()

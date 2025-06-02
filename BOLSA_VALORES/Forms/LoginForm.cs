@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BOLSA_VALORES.Repositories.Implementaciones;
 using BOLSA_VALORES.Models;
+using BOLSA_VALORES.Data;
 
 
 namespace BOLSA_VALORES.Forms
@@ -20,8 +21,10 @@ namespace BOLSA_VALORES.Forms
         public LoginForm()
         {
             InitializeComponent();
-            usuarioRepo = new UsuarioRepository();
+            var connection = DatabaseConnection.Instance.GetConnection();
+            usuarioRepo = new UsuarioRepository(connection, null);
         }
+
 
         private void btnLogin_Click(object sender, EventArgs e)
         {

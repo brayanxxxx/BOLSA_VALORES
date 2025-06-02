@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using BOLSA_VALORES.Models;
 using BOLSA_VALORES.Repositories.Implementaciones;
+using System.Data.SqlClient;
+
 
 
 namespace BOLSA_VALORES.Forms
@@ -16,11 +13,15 @@ namespace BOLSA_VALORES.Forms
     public partial class ManageAccionesForm : Form
     {
         private AccionRepository accionRepository;
+        private SqlConnection _connection;
+        private SqlTransaction _transaction;
 
-        public ManageAccionesForm()
+        public ManageAccionesForm(SqlConnection connection, SqlTransaction transaction)
         {
             InitializeComponent();
-            accionRepository = new AccionRepository();
+            _connection = connection;
+            _transaction = transaction;
+            accionRepository = new AccionRepository(_connection, _transaction);
         }
 
         private void ManageAccionesForm_Load(object sender, EventArgs e)
@@ -30,8 +31,15 @@ namespace BOLSA_VALORES.Forms
 
         private void CargarAcciones()
         {
-            List<Accion> acciones = accionRepository.ObtenerTodas();
-            dgvAcciones.DataSource = acciones;
+            try
+            {
+                List<Accion> acciones = accionRepository.ObtenerTodas();
+                dgvAcciones.DataSource = acciones;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar acciones: " + ex.Message);
+            }
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -44,17 +52,24 @@ namespace BOLSA_VALORES.Forms
                 return;
             }
 
-            var nuevaAccion = new Accion
+            try
             {
-                Nombre = txtNombre.Text.Trim(),
-                Simbolo = txtSimbolo.Text.Trim(),
-                PrecioActual = precio
-            };
+                var nuevaAccion = new Accion
+                {
+                    Nombre = txtNombre.Text.Trim(),
+                    Simbolo = txtSimbolo.Text.Trim(),
+                    PrecioActual = precio
+                };
 
-            accionRepository.AgregarAccion(nuevaAccion);
-            MessageBox.Show("Acción agregada correctamente.");
-            CargarAcciones();
-            LimpiarCampos();
+                accionRepository.AgregarAccion(nuevaAccion);
+                MessageBox.Show("Acción agregada correctamente.");
+                CargarAcciones();
+                LimpiarCampos();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al agregar acción: " + ex.Message);
+            }
         }
 
         private void btnActualizar_Click(object sender, EventArgs e)
@@ -71,20 +86,27 @@ namespace BOLSA_VALORES.Forms
                 return;
             }
 
-            int id = (int)dgvAcciones.CurrentRow.Cells["AccionID"].Value;
-
-            var accionActualizada = new Accion
+            try
             {
-                AccionID = id,
-                Nombre = txtNombre.Text.Trim(),
-                Simbolo = txtSimbolo.Text.Trim(),
-                PrecioActual = precio
-            };
+                int id = (int)dgvAcciones.CurrentRow.Cells["AccionID"].Value;
 
-            accionRepository.ActualizarAccion(accionActualizada);
-            MessageBox.Show("Acción actualizada.");
-            CargarAcciones();
-            LimpiarCampos();
+                var accionActualizada = new Accion
+                {
+                    AccionID = id,
+                    Nombre = txtNombre.Text.Trim(),
+                    Simbolo = txtSimbolo.Text.Trim(),
+                    PrecioActual = precio
+                };
+
+                accionRepository.ActualizarAccion(accionActualizada);
+                MessageBox.Show("Acción actualizada.");
+                CargarAcciones();
+                LimpiarCampos();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al actualizar acción: " + ex.Message);
+            }
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -95,18 +117,25 @@ namespace BOLSA_VALORES.Forms
                 return;
             }
 
-            int id = (int)dgvAcciones.CurrentRow.Cells["AccionID"].Value;
-
-            var confirmResult = MessageBox.Show("¿Estás seguro de eliminar esta acción?",
-                                     "Confirmar eliminación",
-                                     MessageBoxButtons.YesNo);
-
-            if (confirmResult == DialogResult.Yes)
+            try
             {
-                accionRepository.EliminarAccion(id);
-                MessageBox.Show("Acción eliminada.");
-                CargarAcciones();
-                LimpiarCampos();
+                int id = (int)dgvAcciones.CurrentRow.Cells["AccionID"].Value;
+
+                var confirmResult = MessageBox.Show("¿Estás seguro de eliminar esta acción?",
+                                         "Confirmar eliminación",
+                                         MessageBoxButtons.YesNo);
+
+                if (confirmResult == DialogResult.Yes)
+                {
+                    accionRepository.EliminarAccion(id);
+                    MessageBox.Show("Acción eliminada.");
+                    CargarAcciones();
+                    LimpiarCampos();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al eliminar acción: " + ex.Message);
             }
         }
 

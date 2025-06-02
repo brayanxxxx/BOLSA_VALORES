@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using BOLSA_VALORES.Models;
 
 namespace BOLSA_VALORES.Repositories.Interfaces
 {
-    internal class IAccionRepository
+    public interface IAccionRepository
     {
+        List<Accion> ObtenerTodas();
+        void ActualizarPreciosConSP();
+        void AgregarAccion(Accion accion);
+        void ActualizarAccion(Accion accion);
+        void EliminarAccion(int accionId);
+        void SimularCambios(Action<string> notificarCambioImportante = null);
     }
 }
